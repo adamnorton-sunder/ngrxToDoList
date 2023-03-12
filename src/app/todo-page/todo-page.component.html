@@ -1,0 +1,16 @@
+<ion-content style="display: grid; place-items: center;">
+
+  <section style="padding: 20px 0; max-width: 900px; display: block; margin: auto;">
+    <h1 style="margin: 20px;">
+      Welcome
+    </h1>
+
+    <div>
+      <input style="border: 1.5px solid #eee; min-width: 400px; padding: 5px; margin: 20px;" type="text"
+        placeholder="What would you like to accomplish?" [(ngModel)]="this.toDoTitle">
+    </div>
+
+    <button button class="dispatch-btn" (click)="addToDo()">Dispatch AddTodo</button>
+  </section>
+
+</ion-content>

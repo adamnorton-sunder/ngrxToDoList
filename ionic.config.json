@@ -1,0 +1,7 @@
+{
+  "name": "ngrxToDoList",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
